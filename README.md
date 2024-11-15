@@ -1,2 +1,2 @@
-# QUEEN-CHOOTY-NELUMI-MD-
+# QUEEN-CHOOTY-NELUMI-MD
 🇱🇰 Vvip Best Whatsapp Bot 🇱🇰
