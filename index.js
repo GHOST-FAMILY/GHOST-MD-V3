@@ -85,7 +85,7 @@ _If you need any help or have questions, don't hesitate to ask._ 🌝💗
 
 _*🕺Enjoy your time with us!😊*_
 
-*👨‍💻*©Qᴜᴇᴇɴ ᴄʜᴏᴏᴛʏ ɴᴇʟᴜᴍɪ ᴍᴅ*👨‍💻* `;
+*👨‍💻©Qᴜᴇᴇɴ ᴄʜᴏᴏᴛʏ ɴᴇʟᴜᴍɪ ᴍᴅ👨‍💻* `;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/8MSW6YB/0-ASw-N4d9237.jpg` }, caption: up })
 
