@@ -160,10 +160,13 @@ if(senderNumber.includes("94757286833")){
 if(isReact) return
 m.react("🎀")
 }
-//=====================✓
-
+//=====Auto-Read-Cmd==========
+if (isCmd && config.AUTO_READ_CMD === "true") {
+              await conn.readMessages([mek.key])  // Mark command as read
+}
+ //=====================✓
 if (config.AUTO_VOICE === 'false') {    
-const url = 'https://raw.githubusercontent.com/Nadeenpoorna-max/NADEENMD_DATABASED/main/autovoice/NADEEN_DATABASE'
+const url = 'https://github.com/Navinofc44/QUEEN-CHOOTY-NELUMI-MD/blob/main/media/v.json'
 let { data } = await axios.get(url)
 for (vr in data){
 if((new RegExp(`\\b${vr}\\b`,'gi')).test(body)) conn.sendMessage(from,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:mek})   
