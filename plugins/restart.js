@@ -3,8 +3,8 @@ const {cmd , commands} = require('../command')
 const {sleep} = require('../lib/functions')
 
 cmd({
-    pattern: "restart",
-    desc: "restart the bot QUEEN-CHOOTY-NELUMI-MD",
+    pattern: ".restart",
+    desc: "restart the bot ɢʜᴏꜱᴛ-ᴍᴅ ᴠ3",
     category: "owner",
     react: "♻️",
     filename: __filename
