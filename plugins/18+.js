@@ -44,7 +44,7 @@ const msg = `
 `
 
 
-await conn.sendMessage( from, { image: { url: xv_info.result.image || 'https://i.ibb.co/vJhwvYf/Rf-Y1-Cy4-X9914.jpg' }, caption: msg }, { quoted: mek })
+await conn.sendMessage( from, { image: { url: xv_info.result.image || 'https://i.ibb.co/5L8LygK/7ea64ee9890f96ea.jpg' }, caption: msg }, { quoted: mek })
 
 // SEND VIDEO
 await conn.sendMessage(from, { document: { url: xv_info.result.dl_link }, mimetype: "video/mp4", fileName: xv_info.result.title, caption: xv_info.result.title }, { quoted: mek });
